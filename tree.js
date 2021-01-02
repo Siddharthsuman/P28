@@ -6,7 +6,7 @@ constructor(x,y,width,height){
  // friction:0,
   //density:0
     }
-    this.body=Bodies.rectangle(x,y,width,height,options)
+    this.body=Bodies.rectangle(x,y,width/2,height/2,options)
    this.height=height;
    this.width=width;
    
